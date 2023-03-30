@@ -1,0 +1,390 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #171923;;
+  padding: 12px 0;
+}
+
+ 
+.header_login{
+  padding: 100px;
+  text-align: center;
+  background-color: #171923;
+  height: 880px;
+  
+}
+
+.login-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.login{
+  text-align: center;
+  width: 50%;
+  
+}
+
+.criar-conta{
+  width: 50%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.criar-conta a{
+  text-decoration: none;
+  border: 0;
+  display: inline-block;
+  margin-top: 25px;
+  color: white;
+  width: 200px;
+  padding: 10px 0;
+
+  font-size: 18px;
+  background-color: #4a148c;
+  border-radius: 10px;
+}
+
+.criar-conta p{
+  font-size: 29px;
+  color: white;
+  margin-top: 20px;
+}
+
+.header_login img{
+  width: 200px;
+  padding: 10px 0px;
+}
+
+.login h2{
+  font-size: 29px;
+  color: white;
+  margin-top: 20px;
+}
+
+.login form{
+  margin: 50px 0 auto;
+  text-align: center;
+ width: 100%;
+
+}
+
+.login form label{
+  color: white;
+  font-size: 25px;
+  display: block;
+  padding: 8px 0;
+  text-align: left;
+
+}
+
+.login input[type=email]{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 1px solid #4a148c;
+}
+
+.login input[type=password]{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: 1px solid #4a148c;
+}
+
+.login input[type=submit]{
+  display: block;
+  margin-top: 25px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  width: 200px;
+  padding: 10px 0;
+  font-size: 18px;
+  background-color: #4a148c;
+  border-radius: 10px;
+}
+
+
+.logo{
+  width: 50%;
+}
+
+.logo img{
+  width: 200px;
+  padding: 10px 8px;
+}
+
+.foto-perfil{
+  width: 50%;
+  text-align: right;
+ 
+}
+
+.foto-perfil img{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 0 20px;
+  vertical-align: middle;
+ 
+}
+
+.foto-perfil p{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.curso{
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #4a148c;
+}
+
+.curso h2{
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+.modulos{
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #4a148c;
+}
+
+.modulos h2{
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+.cursos-single{
+  border-radius: 25px;
+  width: 25%;
+  margin-left: 5%;
+  margin: 40px 20px;
+  display: flex;
+  padding: 12px 0;
+  justify-content: space-between;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+
+.cursos-single a{
+  font-weight: bold;
+  font-size: 19px;
+  color: #7b1fa2;
+  text-decoration: none;
+}
+
+.cursos-single img{
+  margin-top: 15px;
+  width: 100%;
+
+}
+
+.cursos-single p.texto{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 8px;
+}
+
+.modulo-single{
+  border-radius: 25px;
+  width: 25%;
+  margin-left: 5%;
+  margin: 40px 20px;
+  display: flex;
+  padding: 12px 0;
+  justify-content: space-between;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.modulo-single svg{
+  font-weight: bold;
+  font-size: 24px;
+  color: #7b1fa2;
+  vertical-align: middle;
+}
+
+.modulo-single p.texto{
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0 8px;
+}
+.modulo-single a{
+  text-decoration: none;
+  color:#171923;
+  font-size: 25px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.aulas{
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  background-color: #4a148c;
+}
+
+.aulas h2{
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+.aulas-single{
+  border-radius: 25px;
+  width: 30%;
+  margin: 40px 20px;
+  display: flex;
+  padding: 12px 0;
+  justify-content: space-between;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.aulas-single a{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 8px;
+  color: #171923;
+  text-decoration: none;
+  display: block;
+  border-bottom: 2px solid #ccc;
+}
+
+.aulas-single p{
+  margin-bottom: 20px;
+  color: #7b1fa2;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.aulas-single a.fechar{
+  color: red;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.modalCriar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.formCriar{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.formCriar form{
+  margin-top: 20px;
+}
+
+.formCriar input{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border:  1px solid #ccc;
+  margin-bottom: 12px;
+
+}
+
+.formCriar input[type=submit]{
+  background-color: #4a148c;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.close-modal{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  cursor: pointer;
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #7b1fa2;
+  line-height: 30px;
+}
+
+
+.footer{
+  text-align: center;
+  background-color: #171923;;
+  padding: 12px 0;
+}
+
+.footer img{
+  width: 200px;
+  padding: 10px 8px;
+}
+
+@media screen and (max-width:768px){
+   .curso,.modulos,.header_login{
+    text-align: center;
+    justify-content: center;
+   }
+  .cursos-single,.modulo-single,.aulas-single,.login,.criar-conta{
+    width: 100%;
+  
+   }
+
+  .login input[type=submit]{
+    display: inline-block;
+  }
+  .criar-conta{
+    margin-top: 30px;
+  }
+}
